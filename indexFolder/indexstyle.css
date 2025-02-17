@@ -1,0 +1,21 @@
+@import "tailwindcss";
+body 
+{
+    background: linear-gradient(to bottom right, crimson, rgb(0, 0, 44));
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+blockquote {
+  font-family: 'Protest Strike', sans-serif;
+  
+}
+
+
+nav{
+  font-family: 'Protest Strike', sans-serif;
+  color: rgb(204, 37, 65);
+  background: rgb(6, 41, 70)
+}
