@@ -7,13 +7,13 @@ body {
   min-height: 100vh; 
   margin: 0;
   padding: 0;
+  
 }
 
 blockquote {
   font-family: 'Protest Strike', sans-serif;
   
 }
-
 
 
 
@@ -32,6 +32,7 @@ nav{
 }
 h2{
   font-family: 'Protest Strike', sans-serif;
+  background: linear-gradient(to bottom right, crimson, rgb(20, 2, 6));
 }
 
 @media (max-width: 768px) {
@@ -50,6 +51,24 @@ html, body {
 }
 
 #day1table {
-  background-color: rgb(160, 67, 67);
+  background: linear-gradient(to bottom right, crimson, rgb(20, 2, 6));
   font-family: 'Protest Strike', sans-serif;
+  
+  
+}
+.content {
+  flex: 1;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to bottom right, crimson, rgb(20, 2, 6));
+  font-family: 'Protest Strike', sans-serif;
+}
+
+#scoreBG{
+  background: linear-gradient(to bottom right, rgb(6, 8, 129), rgb(20, 2, 6));
+}
+#LineUpBG{
+  background: linear-gradient(to bottom right, rgb(6, 8, 129), rgb(20, 2, 6));
 }
