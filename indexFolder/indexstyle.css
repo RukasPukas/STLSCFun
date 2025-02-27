@@ -1,12 +1,13 @@
 @import "tailwindcss";
 body {
-  background: linear-gradient(to bottom right, crimson, rgb(0, 0, 44));
+  background: white;
   background-attachment: fixed; 
   background-size: cover; 
   height: auto;
   min-height: 100vh; 
   margin: 0;
   padding: 0;
+
   
 }
 
@@ -20,7 +21,7 @@ blockquote {
 nav{
   position: fixed;  
   font-family: 'Protest Strike', sans-serif;
-  color: rgb(204, 37, 65);
+  color: rgb(236, 46, 109);
   width: 100%;
   top: 0;
   left: 0;
@@ -32,7 +33,7 @@ nav{
 }
 h2{
   font-family: 'Protest Strike', sans-serif;
-  background: linear-gradient(to bottom right, crimson, rgb(20, 2, 6));
+  background: linear-gradient(to bottom right,rgb(236, 46, 109), rgb(20, 2, 6));
 }
 
 @media (max-width: 768px) {
@@ -51,7 +52,7 @@ html, body {
 }
 
 #day1table {
-  background: linear-gradient(to bottom right, crimson, rgb(20, 2, 6));
+  background: linear-gradient(to bottom right, rgb(236, 46, 109), rgb(20, 2, 6));
   font-family: 'Protest Strike', sans-serif;
   
   
@@ -62,7 +63,7 @@ html, body {
 footer {
   text-align: center;
   padding: 10px;
-  background: linear-gradient(to bottom right, crimson, rgb(20, 2, 6));
+  background: linear-gradient(to bottom right,rgb(236, 46, 109), rgb(20, 2, 6));
   font-family: 'Protest Strike', sans-serif;
 }
 
@@ -71,4 +72,19 @@ footer {
 }
 #LineUpBG{
   background: linear-gradient(to bottom right, rgb(6, 8, 129), rgb(20, 2, 6));
+}
+
+.bg-text {
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5vw; 
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.08); 
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: -1; 
+  user-select: none;
+  pointer-events: none; 
 }
